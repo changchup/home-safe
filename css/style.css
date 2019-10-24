@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utilities */
+.container {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #aaa;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+.btn {
+  display: inline-block;
+  color: white;
+  background: #fb2e01;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: darkgrey;
+}
+
+.btn-light {
+  background: grey;
+  color: white;
+}
+
+.text-wrapper {
+  width: 50%;
+  color: white;
+}
+/* end utilities*/
+
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #2a623d;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  padding-top: 0.4rem;
+}
+
+#navbar ul li a {
+  color: white;
+  margin: 0.75rem;
+}
+
+#navbar ul li a:hover {
+  color: darkgrey;
+}
+
+.showcase {
+  height: 100vh;
+  background: url('../img/box.jpg') no-repeat center center/cover;
+}
+
+#how-it-works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../img/dig.jpg') no-repeat center center/cover;
+}
+
+.steps {
+  width: 33.3%;
+  display: flex;
+  justify-content: center;
+}
+.large-numeral {
+  font-size: 60px;
+  margin: 10px;
+}
