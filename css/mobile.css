@@ -1,0 +1,35 @@
+#navbar {
+  display: block;
+  color: green;
+  text-align: center;
+}
+
+#navbar ul {
+  margin: auto;
+  max-width: 70%;
+  padding: 1rem;
+}
+
+#navbar ul li {
+  max-width: 95%;
+  margin: auto;
+}
+
+.steps-container {
+  display: block;
+}
+
+.steps {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px gray;
+  padding: 2rem;
+}
+
+.steps-body {
+  padding: 0 2rem;
+}
+
+.large-numeral {
+  text-align: left;
+}
