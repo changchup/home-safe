@@ -122,3 +122,8 @@ p {
   color: #2a623d;
   margin: 0 10px;
 }
+
+.intro {
+  height: 100vh;
+  background: url('../img/nothing.jpg') no-repeat center center/cover;
+}
