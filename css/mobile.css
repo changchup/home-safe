@@ -1,35 +1,55 @@
-#navbar {
-  display: block;
-  color: green;
-  text-align: center;
-}
+/* Smartphones */
+@media (max-width: 500px) {
+  #navbar {
+    display: block;
+    color: green;
+    text-align: center;
+  }
 
-#navbar ul {
-  margin: auto;
-  max-width: 70%;
-  padding: 1rem;
-}
+  #navbar ul {
+    margin: auto;
+    max-width: 95%;
+    padding: 1rem 0;
+  }
 
-#navbar ul li {
-  max-width: 95%;
-  margin: auto;
-}
+  #navbar ul li {
+    max-width: 95%;
+    margin: auto;
+  }
 
-.steps-container {
-  display: block;
-}
+  .showcase-content {
+    margin: 0 1rem;
+  }
 
-.steps {
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px gray;
-  padding: 2rem;
-}
+  .showcase-content h1 {
+    line-height: 2rem;
+  }
 
-.steps-body {
-  padding: 0 2rem;
-}
+  #how-it-works .text-wrapper {
+    width: 100%;
+    padding: 1rem;
+  }
+  #how-it-works .text-wrapper p {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
 
-.large-numeral {
-  text-align: left;
+  .steps-container {
+    display: block;
+  }
+
+  .steps {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px gray;
+    padding: 2rem;
+  }
+
+  .steps-body {
+    padding: 0 2rem;
+  }
+
+  .large-numeral {
+    text-align: left;
+  }
 }

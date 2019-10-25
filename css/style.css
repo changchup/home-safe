@@ -118,10 +118,7 @@ p {
 }
 .large-numeral {
   font-family: 'Pacifico', cursive;
-  font-size: xx-large;
-  padding: 10px;
-  background: #2a623d;
-  color: white;
-  border-radius: 50%;
-  margin: 10px;
+  font-size: 4rem;
+  color: #2a623d;
+  margin: 0 10px;
 }
